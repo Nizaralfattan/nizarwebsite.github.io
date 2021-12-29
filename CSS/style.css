@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif; 
+    color: rgba(17, 17, 17, 0.932);
+}
+html {
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+}
+.header {
+    height: 40px;
+    z-index: 100000;
+    background-color: #636260b7;
+    position: fixed;
+    padding-bottom: 10px;
+    float: right;
+}
+.header-logo {
+    color: rgb(247, 202, 0);
+}
+
+nav{
+    width:1500px
+}
+.navbar{
+    padding-left: 1000px;
+    float:right,
+}
+ul {
+    list-style: none;
+}
+ul li {
+    float: left;    
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-left: 10px;
+    
+}
+ul li a {
+    color: rgb(255, 217, 0);
+}
+.navbar {
+    float: left;
+    padding-right: 20px;
+}
+.nav {
+    margin-left: 840px;
+}
+.home-area, .bio-area, .about-area, .hobby-area, .contact-area {
+    display: flex;
+    width: 100%;
+    height: 700px;
+}
+.home-area {
+    background-image: url(/Image/1.PNG);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.text-home {
+    margin-left: 65px;
+    margin-top: 100px;
+}
+.text-home a {
+    color: yellow;
+}
+.text-home h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-top: 170px;
+}
+.text-home h1 {
+    font-size: 4em;
+}
+.text-home .description {
+    padding-top: 15px;
+}
+.bio-area {
+    background-image: url(/Image/2.PNG);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.text-bio {
+    margin-left: 650px;
+    margin-top: 100px;
+}
+.text-bio p {
+    font-size: 150%;
+    padding-top: 15px;
+}
+.text-bio h1 {
+    font-size: 250%;
+}
+.text-bio .name {
+    margin-top: 50px;
+}
+.about-area {
+    background-image: url(/Image/3.PNG);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;    
+}
+.text-about {
+    margin-left: 65px;
+    margin-top: 100px;
+    max-width: 695px;
+}
+.hobby-area {
+    background-image: url(/Image/4.PNG);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;       
+}
+.contact-area {
+    background-image: url(/Image/5.PNG);
+}
+.text-hobby {
+    margin-left: 650px;
+    margin-top: 100px;
+    max-width: 650px;
+}
+.text-contact {
+    margin-left: 65px;
+    margin-top: 100px;
+} 
+.text-hobby h1 {
+    color: rgb(0, 0, 0);
+    font-style: initial;
+    font-size: 25px;
+    background-color: rgba(255, 255, 240, 0.24);
+}     
+.text-hobby p {
+    color:rgb(0, 0, 0);
+    font-style: inherit;
+    font-size: 20px;
+    background-color: rgba(245, 245, 245, 0.322);
+}   
+.text-about h1 {
+    color: rgb(0, 0, 0);
+    font-style: initial;
+    font-size: 25px;
+    background-color: rgba(255, 255, 240, 0.24);
+}
+.text-about p {
+    color:rgb(0, 0, 0);
+    font-style: inherit;
+    font-size: 20px;
+    background-color: rgba(245, 245, 245, 0.322);
+}
+.text-contact h1 {
+    color: rgb(0, 0, 0);
+    font-style: initial;
+    font-size: 25px;
+    background-color: rgba(255, 255, 240, 0.5);
+}
+.text-contact p {
+    color:rgb(0, 0, 0);
+    font-style: italic;
+    font-size: 18px;
+    background-color: rgba(245, 245, 245, 0.322);
+}
+.text-contact h2 {
+    color: rgba(13, 80, 0, 0.637);
+    font-style: initial;
+    font-size: 20px;
+}
